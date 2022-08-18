@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+	<meta charset="UTF-8"> <!---configuracion de caracteres-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title> 
+</head>
+<body>
+	
+	<nav> <!---etiqueta de navegacion-->
+		<a href="index.html">Inicio</a> <!---crear enlaces-->
+		<a href="listas.html">Listas</a>
+		<a href="imagenes.html">Imagenes</a>
+		<a href="tablas.html">Tablas</a>
+		<a href="formularios.html">Formularios</a>
+		<!---crear varias listas (a*3)-->
+	</nav>
+	<hr>
+	<h1>Etiquetas para formularios</h1> <!---titulo principal-->
+	<hr>
+
+	<h3>Ejemplo</h3>	
+
+	<form>
+		<label for="nombre">Nombre:</label>
+		<input 
+			type="text" 
+			id="nombre" 
+			name="nombre" 
+			placeholder="Ingrese su nombre">
+		
+		<br>
+		<br>
+			
+		<label for="contraseña">Contraseña:</label>
+		<input 
+			type="password" 
+			id="contraseña" 
+			placeholder="Ingrese su contraseña">
+
+		<br>
+		<br>
+
+		<label >Ciudad:</label>
+		<select> name="ciudad">
+			<option value="kat">Katuete</option>
+			<option value="cde">Ciudad del Este</option>
+			<option value="asu">Asunción</option>
+		</select>
+
+		<br>
+		<br>
+
+		<label>Sexo:</label>
+		<input type="radio" name="sexo" value="masculino">Masculino
+		<input type="radio" name="sexo" value="femenino">Femenino
+
+		<br>
+		<br>
+
+		<input type="submit">
+
+	</form>
+</body>
+</html>

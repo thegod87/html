@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+	<meta charset="UTF-8"> <!---configuracion de caracteres-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tablas</title> 
+
+	<style>
+		table, th, td{
+			border: 1px solid black;
+		}
+		table{
+			border-collapse: collapse;
+		}
+		th, td{
+			padding: 5px;
+		}
+		th{
+			color: red;
+		}
+		th{
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	
+	<nav> <!---etiqueta de navegacion-->
+		<a href="index.html">Inicio</a> <!---crear enlaces-->
+		<a href="listas.html">Listas</a>
+		<a href="imagenes.html">Imagenes</a>
+		<a href="tablas.html">Tablas</a>
+		<a href="formularios.html">Formularios</a>
+		<!---crear varias listas (a*3)-->
+	</nav>
+	<h1>Etiquetas para mostrar tablas</h1> <!---titulo principal-->
+	<hr>
+
+	<p>Las tablas se crean utilizando la etiqueta </i>table</i>. Pero tambien necesita otras etiquetas como </p>
+
+	<ul>
+		<li>thead: cabecera de la tabla</li>
+		<li>tbody: cuerpo y contenido de la tabla</li>
+		<li>tr: fila</li>
+		<li>th: dato de cabecera</li>
+		<li>td: dato de cada fila</li>
+	</ul>
+
+	<h5>Ejemplo</h5>
+
+	<h6>Contactos</h6>
+	<table>
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Email</th>
+				<th>Celular</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>José</td>
+				<td>jose@mail.com</td>
+				<td>0984235423</td>
+			</tr>
+			<tr>
+				<td>Pedro</td>
+				<td>pedro@hotmail.com</td>
+				<td>0986245789</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
